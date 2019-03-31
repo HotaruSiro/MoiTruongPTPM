@@ -17,6 +17,7 @@ public class Dashboard extends javax.swing.JFrame {
      * Creates new form Dashboard
      */
     public Dashboard() {
+        //khoi tao
         initComponents();
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
@@ -87,7 +88,7 @@ public class Dashboard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btEmployeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btEmployeeActionPerformed
-//        new EmployeeList().setVisible(true);
+        new EmployeeList().setVisible(true);
     }//GEN-LAST:event_btEmployeeActionPerformed
 
     /**
@@ -115,6 +116,7 @@ public class Dashboard extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Dashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

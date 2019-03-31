@@ -11,6 +11,7 @@ public class Splash extends javax.swing.JFrame {
      * Creates new form SplashForm
      */
     public Splash() {
+        //khoi tao
         initComponents();
       
         new Thread()
