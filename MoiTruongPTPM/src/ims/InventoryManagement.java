@@ -3,19 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package moitruongptpm;
+package ims;
+
+import ims.gui.Splash;
 
 /**
  *
- * @author ziga0
+ * @author Tu
  */
-public class MoiTruongPTPM {
+public class InventoryManagement {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new Splash().setVisible(false);
+        new Splash().setVisible(true);
+//        new Splash().setVisible(true);
     }
     
 }
